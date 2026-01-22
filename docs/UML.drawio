@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Страница-1" id="Jw1T-WLBMWZGocIh6tYI">
-    <mxGraphModel dx="3123" dy="2403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4270" dy="3021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,28 +31,28 @@
           <mxGeometry height="112" width="360" y="88" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HomeworkResult" vertex="1">
-          <mxGeometry height="240" width="349" x="1450" y="-250" as="geometry" />
+          <mxGeometry height="260" width="349" x="1450" y="-250" as="geometry" />
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-10" parent="9Tn1Fl_kxz9PIjvzLltY-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _homework: Homework&lt;br&gt;- _student: Student&lt;br&gt;- _updateTime: AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;br&gt;- _result: Text&lt;br&gt;- _state:&amp;nbsp;&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;HomeworkState&lt;br&gt;- _comment: string&lt;/span&gt;" vertex="1">
-          <mxGeometry height="104" width="349" y="26" as="geometry" />
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-10" parent="9Tn1Fl_kxz9PIjvzLltY-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _homework: Homework&lt;br&gt;- _student: Student&lt;br&gt;- _updateTime: AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;br&gt;- _result: Text&lt;br&gt;- _state:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;HomeworkState&lt;br&gt;- _grade: Grade&lt;br&gt;- _comment: string&lt;/span&gt;" vertex="1">
+          <mxGeometry height="114" width="349" y="26" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-11" parent="9Tn1Fl_kxz9PIjvzLltY-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="349" y="130" as="geometry" />
+          <mxGeometry height="8" width="349" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-12" parent="9Tn1Fl_kxz9PIjvzLltY-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# HomeworkResult(homework: Homework,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;student: Student,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;updateTime: CreationDateTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;result: Text,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;state:&amp;nbsp;&lt;span style=&quot;font-weight: 700; text-align: center;&quot;&gt;HomeworkState,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;comment: string)&lt;/span&gt;" vertex="1">
-          <mxGeometry height="102" width="349" y="138" as="geometry" />
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-12" parent="9Tn1Fl_kxz9PIjvzLltY-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# HomeworkResult(homework: Homework,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;student: Student,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;updateTime: CreationDateTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;result: Text,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;state:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;HomeworkState,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;grade: Grade,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;comment: string)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="112" width="349" y="148" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Homework" vertex="1">
-          <mxGeometry height="290" width="380" x="630" y="-120" as="geometry" />
+          <mxGeometry height="310" width="380" x="630" y="-120" as="geometry" />
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-14" parent="9Tn1Fl_kxz9PIjvzLltY-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _creationTime: AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;- _deadline:&amp;nbsp;&lt;/span&gt;AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- _teacher: Teacher&lt;br&gt;- _groups: IEnumerable&amp;lt;StudentGroup&amp;gt;&lt;br&gt;- _title: string&lt;br&gt;- _text: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- _media: IEnumerable&amp;lt;Media&amp;gt;&lt;br&gt;- _attempts: int&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-14" parent="9Tn1Fl_kxz9PIjvzLltY-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _creationTime: AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;- _deadline:&amp;nbsp;&lt;/span&gt;AvailableDateTime&amp;nbsp; &amp;nbsp;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- _teacher: Teacher&lt;br&gt;- _lesson: Lesson&lt;br&gt;- _groups: IEnumerable&amp;lt;StudentGroup&amp;gt;&lt;br&gt;- _title: string&lt;br&gt;- _text: string&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;- _media: IEnumerable&amp;lt;Media&amp;gt;&lt;br&gt;- _attempts: int&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="134" width="380" y="26" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-15" parent="9Tn1Fl_kxz9PIjvzLltY-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="380" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-16" parent="9Tn1Fl_kxz9PIjvzLltY-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Homework(creationTime: CreationTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;deadline: AvailableDateTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;teacher: Teacher&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;groups: IEnumerable&amp;lt;StudentGroup&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;title: string,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;text: string,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;media: IEnumerable&amp;lt;Media&amp;gt;,&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;attempts: int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="122" width="380" y="168" as="geometry" />
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-16" parent="9Tn1Fl_kxz9PIjvzLltY-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="# Homework(creationTime: CreationTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;deadline: AvailableDateTime,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;teacher: Teacher,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;lesson: Lesson,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;groups: IEnumerable&amp;lt;StudentGroup&amp;gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;title: string,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;text: string,&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;media: IEnumerable&amp;lt;Media&amp;gt;,&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;attempts: int)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="380" y="168" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="StudentGroup" vertex="1">
           <mxGeometry height="100" width="240" x="651" y="-320" as="geometry" />
@@ -229,7 +229,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-89" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Media" vertex="1">
-          <mxGeometry height="100" width="160" x="1160" y="-550" as="geometry" />
+          <mxGeometry height="100" width="160" x="1210" y="-552" as="geometry" />
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-90" parent="9Tn1Fl_kxz9PIjvzLltY-89" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _url: Url" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -276,7 +276,7 @@
             <mxPoint x="500" y="-160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-108" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-14" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1.002;exitY=0.739;exitDx=0;exitDy=0;exitPerimeter=0;" target="9Tn1Fl_kxz9PIjvzLltY-89" value="1">
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-108" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-14" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.851;exitDx=0;exitDy=0;exitPerimeter=0;" target="9Tn1Fl_kxz9PIjvzLltY-89" value="1">
           <mxGeometry relative="1" x="-1" y="3" as="geometry">
             <mxPoint x="1040" y="-10" as="sourcePoint" />
             <mxPoint x="810" y="551" as="targetPoint" />
@@ -294,15 +294,16 @@
             <mxPoint x="420" y="515" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-111" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-10" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=-0.006;exitY=0.706;exitDx=0;exitDy=0;exitPerimeter=0;" value="1">
+        <mxCell id="9Tn1Fl_kxz9PIjvzLltY-111" edge="1" parent="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=-0.006;exitY=0.706;exitDx=0;exitDy=0;exitPerimeter=0;" target="9Tn1Fl_kxz9PIjvzLltY-97" value="1">
           <mxGeometry relative="1" x="-1" y="3" as="geometry">
             <Array as="points">
-              <mxPoint x="1370" y="-151" />
-              <mxPoint x="1370" y="420" />
-              <mxPoint x="700" y="420" />
+              <mxPoint x="1420" y="-153" />
+              <mxPoint x="1370" y="-153" />
+              <mxPoint x="1370" y="410" />
+              <mxPoint x="700" y="410" />
             </Array>
-            <mxPoint x="1440" y="-151" as="sourcePoint" />
-            <mxPoint x="700" y="480" as="targetPoint" />
+            <mxPoint x="1447.906" y="-153.51600000000008" as="sourcePoint" />
+            <mxPoint x="700" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-114" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-10" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.287;exitDx=0;exitDy=0;exitPerimeter=0;" target="9Tn1Fl_kxz9PIjvzLltY-5" value="">
@@ -325,6 +326,54 @@
         </mxCell>
         <mxCell id="9Tn1Fl_kxz9PIjvzLltY-118" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Or Enum??" vertex="1">
           <mxGeometry height="30" width="80" x="750" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Lesson" vertex="1">
+          <mxGeometry height="100" width="160" x="980" y="-480" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-2" parent="8aCmzG2JB8I_w7UPv7Ta-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _title: string" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-3" parent="8aCmzG2JB8I_w7UPv7Ta-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-4" parent="8aCmzG2JB8I_w7UPv7Ta-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GetTitle(): string&lt;br&gt;# Lesson(title: string)" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-5" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-21" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="8aCmzG2JB8I_w7UPv7Ta-1" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1080" y="-270" as="sourcePoint" />
+            <mxPoint x="1930" y="-253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-6" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-14" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.409;exitDx=0;exitDy=0;exitPerimeter=0;" target="8aCmzG2JB8I_w7UPv7Ta-1" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1160" y="190" as="sourcePoint" />
+            <mxPoint x="1200" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Grade" vertex="1">
+          <mxGeometry height="100" width="160" x="1820" y="-634" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-8" parent="8aCmzG2JB8I_w7UPv7Ta-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _value: int" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-9" parent="8aCmzG2JB8I_w7UPv7Ta-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-10" parent="8aCmzG2JB8I_w7UPv7Ta-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ GetValue(): int&lt;br&gt;# Media(value: int)" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-11" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-21" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="8aCmzG2JB8I_w7UPv7Ta-7" value="Extends">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1020" y="-500" as="sourcePoint" />
+            <mxPoint x="1920" y="-483" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8aCmzG2JB8I_w7UPv7Ta-12" edge="1" parent="1" source="9Tn1Fl_kxz9PIjvzLltY-10" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1.003;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;" target="8aCmzG2JB8I_w7UPv7Ta-7" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1780" y="-300" as="sourcePoint" />
+            <mxPoint x="1210" y="-20" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

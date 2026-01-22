@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
   <diagram name="Страница-1" id="qqJt1SUuk6jxBsHOOHdJ">
-    <mxGraphModel dx="983" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,16 +11,16 @@
           <mxGeometry height="60" width="30" x="220" y="620" as="geometry" />
         </mxCell>
         <mxCell id="ccTVt4ZT-smz4RrmXs9S-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Создать домашнее задание" vertex="1">
-          <mxGeometry height="70" width="140" x="320" y="100" as="geometry" />
+          <mxGeometry height="70" width="140" x="300" y="30" as="geometry" />
         </mxCell>
         <mxCell id="ccTVt4ZT-smz4RrmXs9S-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Отменить домашнее задание" vertex="1">
-          <mxGeometry height="70" width="140" x="440" y="170" as="geometry" />
+          <mxGeometry height="70" width="140" x="440" y="70" as="geometry" />
         </mxCell>
         <mxCell id="ccTVt4ZT-smz4RrmXs9S-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Изменить домашнее задание" vertex="1">
-          <mxGeometry height="70" width="140" x="480" y="260" as="geometry" />
+          <mxGeometry height="70" width="140" x="500" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="ccTVt4ZT-smz4RrmXs9S-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Менять статус выполненных ДЗ" vertex="1">
-          <mxGeometry height="70" width="140" x="320" y="370" as="geometry" />
+        <mxCell id="ccTVt4ZT-smz4RrmXs9S-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Менять статус решений ДЗ" vertex="1">
+          <mxGeometry height="70" width="120" x="440" y="360" as="geometry" />
         </mxCell>
         <mxCell id="ccTVt4ZT-smz4RrmXs9S-9" edge="1" parent="1" source="ccTVt4ZT-smz4RrmXs9S-1" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="ccTVt4ZT-smz4RrmXs9S-3" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -46,14 +46,14 @@
             <mxPoint x="540" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ccTVt4ZT-smz4RrmXs9S-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Создать выполненное ДЗ" vertex="1">
-          <mxGeometry height="70" width="140" x="380" y="550" as="geometry" />
+        <mxCell id="ccTVt4ZT-smz4RrmXs9S-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Создать решение ДЗ" vertex="1">
+          <mxGeometry height="70" width="150" x="380" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="ccTVt4ZT-smz4RrmXs9S-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Изменить текст выполненного ДЗ" vertex="1">
+        <mxCell id="ccTVt4ZT-smz4RrmXs9S-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Изменить текст решения ДЗ" vertex="1">
           <mxGeometry height="70" width="140" x="380" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="ccTVt4ZT-smz4RrmXs9S-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Добавлять комментарии к выполненным ДЗ" vertex="1">
-          <mxGeometry height="70" width="170" x="470" y="340" as="geometry" />
+        <mxCell id="ccTVt4ZT-smz4RrmXs9S-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Добавлять комментарии к решениям ДЗ" vertex="1">
+          <mxGeometry height="70" width="170" x="520" y="280" as="geometry" />
         </mxCell>
         <mxCell id="ccTVt4ZT-smz4RrmXs9S-20" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ccTVt4ZT-smz4RrmXs9S-14" value="">
           <mxGeometry relative="1" width="160" as="geometry">
@@ -71,6 +71,15 @@
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="280" y="270" as="sourcePoint" />
             <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bBLI1BuufBI_uXhh9arm-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Добавить оценку решению ДЗ" vertex="1">
+          <mxGeometry height="70" width="140" x="290" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="bBLI1BuufBI_uXhh9arm-2" edge="1" parent="1" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bBLI1BuufBI_uXhh9arm-1" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="280" y="270" as="sourcePoint" />
+            <mxPoint x="670" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
