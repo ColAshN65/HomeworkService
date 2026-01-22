@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Domain/">
+    <Project Path="HomeworkMicroservice.Domain.Entities/HomeworkMicroservice.Domain.Entities.csproj" />
+    <Project Path="HomeworkMicroservice.Domain.ValueObjects/HomeworkMicroservice.Domain.ValueObjects.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="HomeworkMicroservice.WebHost/HomeworkMicroservice.WebHost.csproj" />
+  </Folder>
+</Solution>
