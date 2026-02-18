@@ -1,26 +1,31 @@
 ﻿using HomeworkMicroservice.Domain.ValueObjects.Base;
+using HomeworkMicroservice.Domain.ValueObjects.Exceptions;
 
 namespace HomeworkMicroservice.Domain.ValueObjects;
 
-public class GroupName : ValueObject
+public class GroupName : ValueObject<string>
 {
-    public string Name { get ; }
+    public override string Value { get; }
 
+    public static readonly byte MaxValue = 10;
+
+    /// <exception cref="GroupNameNullOrEmptyException"></exception>
+    /// <exception cref="GroupNameTooLongException"></exception>
     public GroupName(string name)
     {
-        if (String.IsNullOrWhiteSpace(name))
-            throw new ArgumentException("Argument is null or empty", nameof(name));
+        if (string.IsNullOrWhiteSpace(name))
+            throw new GroupNameNullOrEmptyException();
 
-        if (name.Length > 10)
-            throw new ArgumentException("Group name is too big", nameof(name));
+        if (name.Length > MaxValue)
+            throw new GroupNameTooLongException();
 
-        Name = name;
+        Value = name;
     }
 
-    public override bool Equals(ValueObject? other)
+    public override bool Equals(IValueObject? other)
     {
-        if (other is GroupName groupName)
-            return Name.Equals(groupName.Name);
+        if (other is GroupName availableDateTime)
+            return Value.Equals(availableDateTime.Value);
 
         return false;
     }

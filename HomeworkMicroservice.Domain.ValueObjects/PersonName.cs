@@ -1,23 +1,25 @@
 ﻿using HomeworkMicroservice.Domain.ValueObjects.Base;
+using HomeworkMicroservice.Domain.ValueObjects.Exceptions;
 
 namespace HomeworkMicroservice.Domain.ValueObjects;
 
-public class PersonName : ValueObject
+public class PersonName : ValueObject<string>
 {
-    public string Name { get; }
+    public override string Value { get; }
 
+    /// <exception cref="PersonNameNullOrEmptyException"></exception>
     public PersonName(string name)
     {
         if (String.IsNullOrWhiteSpace(name))
-            throw new ArgumentException("Argument is null or empty", nameof(name));
+            throw new PersonNameNullOrEmptyException();
 
-        Name = name;
+        Value = name;
     }
 
-    public override bool Equals(ValueObject? other)
+    public override bool Equals(IValueObject? other)
     {
         if (other is PersonName personName)
-            return Name.Equals(personName.Name);
+            return Value.Equals(personName.Value);
 
         return false;
     }

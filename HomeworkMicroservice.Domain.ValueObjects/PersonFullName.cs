@@ -1,41 +1,40 @@
 ﻿using HomeworkMicroservice.Domain.ValueObjects.Base;
+using HomeworkMicroservice.Domain.ValueObjects.Exceptions;
 using System.Text;
 
 namespace HomeworkMicroservice.Domain.ValueObjects;
 
-public class PersonFullName : ValueObject
+public class PersonFullName : ValueObject<string>
 {
-    public string FirstName { get => _firstName.Name; }
-    public string Surname { get => _surname.Name; }
-    public string Patronymic { get => _patronymic.Name; }
-    public string FullName
-    {
-        get
-        {
-            StringBuilder sb = new StringBuilder();
+    public string FirstName { get => _firstName.Value; }
+    public string Surname { get => _surname.Value; }
+    public string Patronymic { get => _patronymic.Value; }
 
-            sb.Append(_firstName);
-            sb.Append(' ');
-            sb.Append(_surname);
-            sb.Append(' ');
-            sb.Append(_patronymic);
-
-            return sb.ToString();
-        }
-    }
+    public override string Value { get; }
 
     private readonly PersonName _firstName;
     private readonly PersonName _surname;
     private readonly PersonName _patronymic;
 
+    /// <exception cref="PersonNameNullOrEmptyException"></exception>
     public PersonFullName(string firstName, string surname, string patronymic)
     {
         _firstName = new PersonName(firstName);
         _surname = new PersonName(surname);
         _patronymic = new PersonName(patronymic);
+
+        StringBuilder sb = new();
+
+        sb.Append(_firstName);
+        sb.Append(' ');
+        sb.Append(_surname);
+        sb.Append(' ');
+        sb.Append(_patronymic);
+
+        Value = sb.ToString();
     }
 
-    public override bool Equals(ValueObject? other)
+    public override bool Equals(IValueObject? other)
     {
         if (other is not PersonFullName personFullName)
             return false;

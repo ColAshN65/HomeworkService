@@ -1,7 +1,10 @@
-﻿namespace HomeworkMicroservice.Domain.ValueObjects.Base;
+﻿using System.Numerics;
 
-//TODO: GetHashCode...
-public abstract class ValueObject : IValueObject<ValueObject>
+namespace HomeworkMicroservice.Domain.ValueObjects.Base;
+
+public abstract class ValueObject : 
+    IValueObject,
+    IEqualityOperators<ValueObject, ValueObject, bool>
 {
     public override bool Equals(object? obj)
     {
@@ -11,7 +14,8 @@ public abstract class ValueObject : IValueObject<ValueObject>
         return false;
     }
 
-    public abstract bool Equals(ValueObject? other);
+    public abstract bool Equals(IValueObject? other);
+    public override abstract int GetHashCode();
 
     public static bool operator ==(ValueObject? left, ValueObject? right)
     {
@@ -23,4 +27,15 @@ public abstract class ValueObject : IValueObject<ValueObject>
 
     public static bool operator !=(ValueObject? left, ValueObject? right)
         => !(left == right);
+
+}
+
+//TODO: Need not nullable analyzer
+public abstract class ValueObject<TValue> : ValueObject
+    where TValue : notnull
+{
+    public abstract TValue Value { get; }
+
+    public override int GetHashCode()
+        => Value.GetHashCode();
 }

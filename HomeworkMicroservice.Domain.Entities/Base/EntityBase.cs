@@ -2,8 +2,9 @@
 
 namespace HomeworkMicroservice.Domain.Entities.Base;
 
-public abstract class EntityBase(Guid id)
-    : IEntity<Guid, EntityBase> //CA2260 WTF???
+public abstract class EntityBase(Guid id) : 
+    IEntity<Guid>,
+    IEqualityOperators<EntityBase, EntityBase, bool>
 {
     public Guid Id { get; } = id;
 
@@ -18,7 +19,7 @@ public abstract class EntityBase(Guid id)
         return false;
     }
 
-    public bool Equals(EntityBase? other)
+    public bool Equals(IEntity<Guid>? other)
     {
         if (other is null)
             return false;

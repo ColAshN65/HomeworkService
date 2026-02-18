@@ -6,6 +6,5 @@ public enum HomeWorkState
     AwaitingCheck,
     OnChecking,
     AwaitingRetake,
-    Passed,
-    Failed
+    Checked
 }
